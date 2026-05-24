@@ -1,0 +1,27 @@
+{
+    "DDL": [
+        {
+            "name": "CREATE",
+            "zh": "用于创建新对象",
+            "en": "Used to create new objects",
+            "code": "CREATE TABLE 表名称 (\n    列名称1 数据类型,\n    列名称2 数据类型\n);",
+            "code_en": "CREATE TABLE table_name (\n    column1 datatype,\n    column2 datatype\n);"
+        },
+        {
+            "name": "ALTER",
+            "zh": "用于修改表结构",
+            "en": "Used to modify table structure",
+            "code": "ALTER TABLE 表名称 ADD 列名称 数据类型;",
+            "code_en": "ALTER TABLE table_name ADD column_name datatype;"
+        }
+    ],
+    "DML": [
+        {
+            "name": "SELECT",
+            "zh": "用于提取数据",
+            "en": "Used to extract data",
+            "code": "SELECT 列名称 FROM 表名称;",
+            "code_en": "SELECT column_name FROM table_name;"
+        }
+    ]
+}
